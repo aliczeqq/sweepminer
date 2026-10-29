@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "sweepminer",
+  "version": "1.0.0",
+  "name": "SweepMiner",
+  "description": "Chodzi 105 kratek w prawo i w lewo z wcisnietym LPM. Klawisz R wlacza/wylacza.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["example.sweepminer.SweepMiner"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
